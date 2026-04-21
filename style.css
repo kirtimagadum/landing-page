@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between; /* logo left, menu right */
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: blue;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 40px auto;   /* auto left & right centers it */
+    display: block;      /* makes margin work */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: darkblue;
+}
+.hero{
+    text-align: center;
+    margin-top: 80px;
+}
+.hero2 {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hero2 img {
+    width: 100%;     /* full width */
+    height: auto;    /* maintain aspect ratio */
+    display: block;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #222;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.logo span {
+    color: #0077ff; /* highlight color */
+}
